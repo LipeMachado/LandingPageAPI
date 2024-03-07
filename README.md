@@ -1,70 +1,59 @@
+# Shadcn/UI Landing Page Template
 
-![Logo](https://ik.imagekit.io/vu5t8xb15vzcx/tr:h-100/M_akhjB4K1-.png?ik-sdk-version=javascript-1.4.3&updatedAt=1677436748377)
+## <a href="https://ui.shadcn.com/" target="_blank">ShadcnUI</a> + <a href="https://react.dev/" target="_blank">React</a> + <a href="https://www.typescriptlang.org/" target="_blank">TypeScript</a> + <a href="https://tailwindcss.com/" target="_blank">Tailwind</a>.
 
-## Daisy UI Next JS Landing Page Template 
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+![shadch-landing-page](https://github.com/leoMirandaa/shadcn-landing-page/assets/61714687/3ba7b51f-9589-4541-800a-5ab7cecad1b5)
 
-A free landing page template using **Daisy UI** and Next JS. With the help of Dasisy UI, it comes with **fully customizable and themable CSS** and power of Tailwind CSS utility classes.
+Build your React landing page effortlessly with the required sections to your project. <a href="https://shadcn-landing-page.vercel.app/" target="_blank">Live Demo</a>
 
+## Sections
 
-## Preview
-
-[Live preview](https://daisyui-nextjs-landing-page.vercel.app/)
-
-
-![App Screenshot](https://ik.imagekit.io/vu5t8xb15vzcx/Screenshot%202023-11-23%20at%203.51.44%20PM_tSpwQBZKWN.png?updatedAt=1700734952531)
-
-
-
+- [x] Navbar
+- [x] Sidebar(mobile)
+- [x] Hero
+- [x] Sponsors
+- [x] About
+- [x] Stats
+- [x] How It Works
+- [x] Features
+- [x] Services
+- [x] Call-to-Action (CTA)
+- [x] Testimonials
+- [x] Team
+- [x] Pricing
+- [x] Newsletter
+- [x] Frequently Asked Questions(FAQ)
+- [x] Footer
 
 ## Features
 
-- **Next Js** for SEO friendly
-- **Pricing** and Feature Page
-- **Daisy UI** components and **Tailwind** support
-- **Analytics** and other libraries configured
+- [x] Fully Responsive Design
+- [x] User Friendly Navigation
+- [x] Dark Mode
+- [x] Metatags
 
+## How to install
 
-## Installation
-
-Go to project directory and run (make sure you have node installed first)
+1. Clone this repositoy:
 
 ```bash
-  npm install
-  npm start
+git clone https://github.com/leoMirandaa/shadcn-landing-page.git
 ```
-    
-## Core Libraries Used
 
-- [Next JS v13.1.6](https://reactjs.org/)
-- [Tailwind CSS v3.2.4](https://tailwindcss.com/)
-- [Daisy UI v2.41.0](https://daisyui.com/)
-- [HeroIcons](https://heroicons.com/)
+2. Go into project
 
+```bash
+cd shadcn-landing-page
+```
 
+3. Install dependencies
 
-## Preview
+```bash
+npm install
+```
 
-[Live preview](https://daisyui-nextjs-landing-page.vercel.app/)
+4. Run project
 
-
-## Page Examples
-
-|                          |                               |
-:-------------------------:|:-------------------------:
-![Login Page](https://ik.imagekit.io/vu5t8xb15vzcx/Screenshot%202023-11-23%20at%203.54.13%20PM_Rmidhi5Lk.png?updatedAt=1700735336477) | ![Pricing Page](https://ik.imagekit.io/vu5t8xb15vzcx/Screenshot%202023-11-23%20at%203.58.11%20PM_bOAmz0lkh.png?updatedAt=1700735336115) 
-![About Us Page](https://ik.imagekit.io/vu5t8xb15vzcx/Screenshot%202023-11-23%20at%203.58.28%20PM_Iq6KCzMfh.png?updatedAt=1700735335834) | ![Profile Page](https://ik.imagekit.io/vu5t8xb15vzcx/Screenshot%202023-11-23%20at%203.58.37%20PM_7Ewqbd5N_.png?updatedAt=1700735335793) 
-
-
-## Contributing
-
-Contributions are always welcome!
-
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
-
-## Feedback
-
-If you have any feedback, please reach out to us
-
+```bash
+npm run dev
+```

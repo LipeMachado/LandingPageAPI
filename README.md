@@ -1,30 +1,70 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Logo](https://ik.imagekit.io/vu5t8xb15vzcx/tr:h-100/M_akhjB4K1-.png?ik-sdk-version=javascript-1.4.3&updatedAt=1677436748377)
 
-Currently, two official plugins are available:
+## Daisy UI Next JS Landing Page Template 
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A free landing page template using **Daisy UI** and Next JS. With the help of Dasisy UI, it comes with **fully customizable and themable CSS** and power of Tailwind CSS utility classes.
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Preview
 
-- Configure the top-level `parserOptions` property like this:
+[Live preview](https://daisyui-nextjs-landing-page.vercel.app/)
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+
+![App Screenshot](https://ik.imagekit.io/vu5t8xb15vzcx/Screenshot%202023-11-23%20at%203.51.44%20PM_tSpwQBZKWN.png?updatedAt=1700734952531)
+
+
+
+
+## Features
+
+- **Next Js** for SEO friendly
+- **Pricing** and Feature Page
+- **Daisy UI** components and **Tailwind** support
+- **Analytics** and other libraries configured
+
+
+## Installation
+
+Go to project directory and run (make sure you have node installed first)
+
+```bash
+  npm install
+  npm start
 ```
+    
+## Core Libraries Used
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- [Next JS v13.1.6](https://reactjs.org/)
+- [Tailwind CSS v3.2.4](https://tailwindcss.com/)
+- [Daisy UI v2.41.0](https://daisyui.com/)
+- [HeroIcons](https://heroicons.com/)
+
+
+
+## Preview
+
+[Live preview](https://daisyui-nextjs-landing-page.vercel.app/)
+
+
+## Page Examples
+
+|                          |                               |
+:-------------------------:|:-------------------------:
+![Login Page](https://ik.imagekit.io/vu5t8xb15vzcx/Screenshot%202023-11-23%20at%203.54.13%20PM_Rmidhi5Lk.png?updatedAt=1700735336477) | ![Pricing Page](https://ik.imagekit.io/vu5t8xb15vzcx/Screenshot%202023-11-23%20at%203.58.11%20PM_bOAmz0lkh.png?updatedAt=1700735336115) 
+![About Us Page](https://ik.imagekit.io/vu5t8xb15vzcx/Screenshot%202023-11-23%20at%203.58.28%20PM_Iq6KCzMfh.png?updatedAt=1700735335834) | ![Profile Page](https://ik.imagekit.io/vu5t8xb15vzcx/Screenshot%202023-11-23%20at%203.58.37%20PM_7Ewqbd5N_.png?updatedAt=1700735335793) 
+
+
+## Contributing
+
+Contributions are always welcome!
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
+## Feedback
+
+If you have any feedback, please reach out to us
+

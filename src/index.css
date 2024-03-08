@@ -2,6 +2,18 @@ html {
   scroll-behavior: smooth;
 }
 
+*::-webkit-scrollbar {
+  width: 6px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #0c0a09;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #16a34a;
+}
+
 /* HeroCards background shadow */
 .shadow {
   position: absolute;

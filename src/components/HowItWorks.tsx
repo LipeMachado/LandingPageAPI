@@ -11,27 +11,27 @@ interface FeatureProps {
 const features: FeatureProps[] = [
   {
     icon: <MedalIcon />,
-    title: "Accesibility",
+    title: "Acessibilidade",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum quas provident cum",
+      "Oferecemos uma experiência inclusiva para todos os jogadores, independentemente de suas habilidades ou necessidades especiais.",
   },
   {
     icon: <MapIcon />,
-    title: "Community",
+    title: "Desempenho",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum quas provident cum",
+      "Garantimos um cassino online rápido, responsivo e eficiente, proporcionando uma experiência de jogo fluida e sem interrupções.",
   },
   {
     icon: <PlaneIcon />,
-    title: "Scalability",
+    title: "Escalabilidade",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum quas provident cum",
+      "Nossa solução é altamente escalável, permitindo que sua plataforma cresça sem problemas à medida que conquista novos jogadores e expande seu alcance.",
   },
   {
     icon: <GiftIcon />,
-    title: "Gamification",
+    title: "Segurança Avançada",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum quas provident cum",
+      "Garantimos a segurança avançada do seu cassino online, protegendo dados e privacidade para uma experiência de jogo confiável.",
   },
 ];
 
@@ -42,11 +42,11 @@ export const HowItWorks = () => {
       className="container text-center py-24 sm:py-32"
     >
       <h2 className="text-3xl md:text-4xl font-bold ">
-        How It{" "}
+        Guia{" "}
+        passo a passo{" "}
         <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
-          Works{" "}
+          de como funciona
         </span>
-        Step-by-Step Guide
       </h2>
       <p className="md:w-3/4 mx-auto mt-4 mb-8 text-xl text-muted-foreground">
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis
@@ -69,6 +69,6 @@ export const HowItWorks = () => {
           </Card>
         ))}
       </div>
-    </section>
+    </section >
   );
 };

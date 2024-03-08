@@ -1,7 +1,5 @@
 import { Button } from "./ui/button";
-import { buttonVariants } from "./ui/button";
 import { HeroCards } from "./HeroCards";
-import { GitHubLogoIcon } from "@radix-ui/react-icons";
 
 export const Hero = () => {
   return (
@@ -10,27 +8,27 @@ export const Hero = () => {
         <main className="text-5xl md:text-6xl font-bold">
           <h1 className="inline">
             <span className="inline bg-gradient-to-r from-[#F596D3]  to-[#D247BF] text-transparent bg-clip-text">
-              Shadcn
+              API
             </span>{" "}
-            landing page
+            performática
           </h1>{" "}
-          for{" "}
+          para{" "}
           <h2 className="inline">
             <span className="inline bg-gradient-to-r from-[#61DAFB] via-[#1fc0f1] to-[#03a3d7] text-transparent bg-clip-text">
-              React
+              Cassinos
             </span>{" "}
-            developers
+            como o seu
           </h2>
         </main>
 
         <p className="text-xl text-muted-foreground md:w-10/12 mx-auto lg:mx-0">
-          Build your React landing page effortlessly with the required sections
-          to your project.
+          Construa seu cassino com nossa api, e deixe-o mais peformático e
+          com novas funcionalidades.
         </p>
 
         <div className="space-y-4 md:space-y-0 md:space-x-4">
-          <Button className="w-full md:w-1/3">Get Started</Button>
-
+          <a href="#pricing"><Button className="w-full md:w-1/3 text-white">Adiquira agora</Button></a>
+          {/*
           <a
             href=""
             target="_blank"
@@ -40,7 +38,7 @@ export const Hero = () => {
           >
             Github Repository
             <GitHubLogoIcon className="ml-2 w-5 h-5" />
-          </a>
+          </a>*/}
         </div>
       </div>
 
